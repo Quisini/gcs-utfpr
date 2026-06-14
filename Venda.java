@@ -4,6 +4,6 @@ public class Venda {
     private double valorTotal;
 
     public void calcularTotal() {
-        System.out.println("Total da venda: R$ " + valorTotal);
+        System.out.println("Total da venda:R$ " + valorTotal);
     }
 }
