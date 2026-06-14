@@ -1,61 +1,63 @@
-Politica de versionamento do codigo
+# Política de Versionamento do Código
 
-Formato de Commit de Merges
+## Formato de Commits e Merges
 
-Em geral: <tipo>: <descricao>
+Em geral:
 
-linha vazia para separacao
+```text
+<tipo>: <descricao>
+```
 
+Linha vazia para separação:
+
+```text
 <opcional corpo do commit>
+```
 
-Tipos:
+## Tipos de Commit
 
-feat: Commits para adicionar, ajustar ou remover funcoes do codigo
+* `feat`: commits para adicionar, ajustar ou remover funcionalidades do código.
+* `fix`: commits para corrigir erros no código.
+* `style`: commits para alterar estilos e organização de textos.
+* `docs`: commits que afetam exclusivamente a documentação.
 
-fix: Commits para reparar erros no codigo
+## Exemplos
 
-style: Commits para alterar os estilos dos textos
-
-docs: Commits que afetam exclusivamente a documentacao
-
-Exemplos:
-
+```text
 feat: adicionar classe Cliente
 
-fix: corrigir calculo de valor total da venda
+fix: corrigir cálculo de valor total da venda
 
-style: ajustar organizacao do README
+style: ajustar organização do README
 
-docs: atualizar politica de versionamento
+docs: atualizar política de versionamento
+```
 
-Releases:
+# Releases
 
-Para releases de versoes, as especificacoes sao as seguintes:
+Para releases de versões, as especificações são as seguintes:
 
-Cada integrante sera responsavel por uma versao principal do projeto. As versoes seguem a ordem definida para a realizacao das atividades.
+Cada integrante será responsável por uma versão principal do projeto. As versões seguem a ordem definida para a realização das atividades.
 
-v1.0 - Responsavel pelo primeiro conjunto de tarefas
+* `v1.0` — Responsável pelo primeiro conjunto de tarefas
+* `v2.0` — Responsável pelo segundo conjunto de tarefas
+* `v3.0` — Responsável pelo terceiro conjunto de tarefas
+* `v4.0` — Responsável pelo quarto conjunto de tarefas
 
-v2.0 - Responsavel pelo segundo conjunto de tarefas
+Cada integrante deve criar uma tag correspondente à sua versão durante o desenvolvimento de sua parte do projeto.
 
-v3.0 - Responsavel pelo terceiro conjunto de tarefas
+# Contribuição
 
-v4.0 - Responsavel pelo quarto conjunto de tarefas
-
-Cada integrante deve criar uma tag correspondente a sua versao durante o desenvolvimento de sua parte do projeto.
-
-Contribuicao
-
-Antes de iniciar uma atividade, recomenda-se verificar as tarefas atribuidas e garantir que nao exista conflito com o trabalho de outro integrante.
+Antes de iniciar uma atividade, recomenda-se verificar as tarefas atribuídas e garantir que não exista conflito com o trabalho de outro integrante.
 
 Novas classes devem seguir o tema definido para o projeto, que consiste em um sistema de loja de departamento.
 
-As classes devem possuir nomes claros e representar entidades ou processos relacionados ao dominio do sistema.
+As classes devem possuir nomes claros e representar entidades ou processos relacionados ao domínio do sistema.
 
-Nao ha exigencia de complexidade para as classes. O objetivo principal do projeto e demonstrar o uso de tecnicas de gerencia de configuracao, versionamento e colaboracao em repositorios Git.
+Não há exigência de complexidade para as classes. O objetivo principal do projeto é demonstrar o uso de técnicas de gerência de configuração, versionamento e colaboração em repositórios Git.
 
-Merge de alteracoes
+# Merge de Alterações
 
-Toda alteracao deve ser enviada ao repositorio utilizando commits padronizados.
+Toda alteração deve ser enviada ao repositório utilizando commits padronizados.
 
-Documentacoes como README e CONTRIBUTING podem ser atualizadas quando necessario, desde que sejam mantidas as convencoes definidas neste documento.
+Documentações como `README` e `CONTRIBUTING` podem ser atualizadas quando necessário, desde que sejam mantidas as convenções definidas neste documento.
